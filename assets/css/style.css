@@ -1,0 +1,132 @@
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    background: url('../img/marble-bg.jpg');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 2;
+    color: #666;
+    padding-bottom: 120px;
+    font-size: 16px;
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    font-size: 20pt;
+    margin-left: 1.4rem;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 0;
+    display: inline-flex;
+}
+
+.img {
+    padding-right: 10px;
+    padding-left: 2px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18pt;
+    padding: 30px 0 8px 10px;
+    font-weight: bolder;
+}
+
+hr {
+    background: #ccc;
+    width: 96%;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ccc;
+}
+
+footer {
+    margin: 0 auto;
+    background: #666;
+    border-top: 5px solid #4aaaa5;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.spn {
+    padding: 20px 0 20px 0;
+    float: right;
+}
+
+.container {
+    width: 768px;
+}
+
+.container-fluid {
+    min-height: 70px;
+}
+.nav {
+    height: 70px;
+}
+
+.mt-10 {
+    margin-top: 2rem !important;
+  }
+
+.mb-10 {
+    margin-top: 2rem !important;
+}
+
+.ml-10 {
+    margin-left: 2rem !important;
+}
+
+@media screen and (min-width: 980px) {
+    img {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 980px) {
+    img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img {
+        width: 500px;
+    }
+ 
+    h1 {
+        display: inherit;
+        width: 100%;
+        margin: 0rem;
+        text-align: center;
+    }
+    .spn {
+        float: none;
+        padding: 20px;
+    }
+    .container {
+        width: 100%;
+    }
+}
