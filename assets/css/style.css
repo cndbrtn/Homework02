@@ -97,6 +97,7 @@ footer {
 
 .container {
     width: 768px;
+    padding-bottom: 10px;
 }
 
 .container-fluid {
@@ -189,7 +190,7 @@ footer {
 
     .container {
         width: 100%;
-        padding-bottom: 10px;
+
     }
 
     .container-fluid {
